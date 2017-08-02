@@ -32,5 +32,7 @@ public class Okijulian {
         IMPRIMIR(+n);
        }
     
+    new line code
+    
               }
 }
