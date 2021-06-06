@@ -1,4 +1,4 @@
-cadena = "Ana sdfg"
+cadena = "Ana lana ana "
 #elimino espacios en blanco y pongo
 cadena_sin_espacios = cadena.replace(' ', '').lower()
 #acá podemos hacer un print si queremos chequear cómo quedó con print(cadena_sin_espacios)
