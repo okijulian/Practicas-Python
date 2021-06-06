@@ -1,2 +1,2 @@
-# oki1.0
+# praticas de ejercicios de python
 prueba de repositorio
