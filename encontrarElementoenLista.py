@@ -11,3 +11,16 @@ if Encontrado:
     print("Elemento encontrado en el índice", i)
 else:
     print("ausente")
+
+    
+ # encontrar numeros sorteados en una loteria 
+
+sorteados = [5, 11, 9, 42, 3, 49] 
+seleccionados = [3, 7, 11, 42, 34, 49]
+aciertos = 0
+
+for numeros in seleccionados:
+    if numeros in sorteados:
+        aciertos += 1
+
+print(aciertos)
