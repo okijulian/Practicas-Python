@@ -14,3 +14,16 @@ def fib(n):
 
 for n in range(1, 10): # probando
     print(n, "->", fib(n))
+
+    
+    #metodo corto de la serie.
+def fib(n):
+    if n < 1:
+        return None
+    if n < 3:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+    return sum
+
+for n in range(1, 10):
+    print(n, "->", fib(n))
