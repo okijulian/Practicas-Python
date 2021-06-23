@@ -26,3 +26,19 @@ La línea 11: agrega el carácter recibido al final del mensaje cifrado.
 La línea 13: imprime el cifrado.
 
 '''
+# Cifrado César - descifrar un mensaje
+cifrado = input('Ingresa tu criptograma: ')
+text = ''
+for char in cifrado:
+    if not char.isalpha():
+        continue
+    char = char.upper()
+    code = ord(char) - 3
+    if code < ord('A'):
+        code = ord('Z')
+    text += chr(code)
+
+print(text)
+
+
+
